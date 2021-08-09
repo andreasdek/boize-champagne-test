@@ -1,0 +1,708 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+    font-family: 'Lato', sans-serif;
+    color: #202121;
+}
+
+main {
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    position: relative;
+    height: 20vh;
+    max-height: 130px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-family: 'Lato', sans-serif;
+}
+section {
+    margin-bottom: 60px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-right: 20px;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+footer {
+    background-color: rgba(185,167,119,1.00);
+    position: relative;
+    margin-top: 100PX;
+    height: 150px;
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+}
+
+
+
+
+
+
+h1  {
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    background-color: #B9A777;
+    -webkit-box-shadow: 0px 0px #FFFFFF;
+    box-shadow: 0px 0px #FFFFFF;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    letter-spacing: 2px;
+    left: -2vw;
+    top: -1vw;
+    border-radius: 30px;
+}
+
+h2 {
+    color: #B9A777;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 0px;
+    text-decoration: none;
+    border-bottom: 3px solid #B9A777;
+    display: inline-block;
+    width: auto;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+h3 {
+    font-weight: 600;
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 22px;
+    letter-spacing: 1pt;
+}
+
+p {
+    line-height: 1.5em;
+    font-size: 20px;
+}
+a , a:hover, a:focus, a:active{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+quote {
+    font-style: italic;
+}
+.clear_fix {
+    clear: both;
+    height: 0px;
+}
+.width_25_percent {
+    width: 25%;
+    display: inline-block;
+    height: 100%;
+    align-items: stretch;
+    float: left;
+    clear: none;
+}
+
+.jaartal_left {
+    float: left;
+    top: 0px;
+    left: 0px;
+}
+
+.jaartal_right {
+    float: right;
+    right: 0px;
+    top: 0px;
+
+}
+
+#link_headerlogo {
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: auto;
+}
+
+#header_logo {
+    display: inline-block;
+    width: auto;
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+nav {
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    transform: translate(0,-50%);
+    top: 50%;
+    text-align: center;
+    width: auto;
+    margin-left: 200px;
+}
+nav a {
+    width: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #B9A777;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+nav a:hover {
+    color: #74653C;
+}
+
+
+.container_section_subtext  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#img_tijdlijn {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.container_tijdlijn {
+    clear: none;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #B9A777;
+    position: relative;
+}
+
+
+
+.container_jaar_text {
+    width: 80%;
+    height: auto;
+}
+.container_jaar_text a {
+    color: #B9A777;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container_jaar_text a:hover {
+    background-color: #B9A777;
+    color: #FFFFFF;
+}
+
+
+.jaar_text_right {
+    float: right;
+    padding-left: 30px;
+}
+.jaar_text_left {
+    float: left;
+    padding-right: 30px;
+}
+
+
+
+.container_jaartal {
+    width: 20%;
+    display: inline-block;
+    font-family: Autography, sans-serif;
+    font-size: 80px;
+    background-color: #B9A777;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.container_jaartal img {
+    width: 80%;
+    height: auto;
+    vertical-align: middle;
+    padding-top: 15px;
+
+}
+.section_champagnes {
+    width: auto;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    height: auto;
+}
+
+.container_champagnes {
+    position: relative;
+    margin-bottom: 50px;
+}
+.champagnes {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 50%;
+}
+
+
+
+.container_champagne_groep {
+    background-color: rgba(0,0,0,0.40);
+    display: inline-block;
+    text-align: center;
+    color: rgba(255,255,255,1.00);
+    border: 3px solid #F1F1F1;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+.container_champagne_groep:hover {
+    border-color: #B9A777;
+    color: #B9A777;
+}
+
+.champagne_groep_titel {
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: auto;
+}
+
+
+.wijngaard_bg {
+    height: 350px;
+    width: auto;
+    background-image: url(Afbeeldingen/Wijngaarden2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    background-position: 0% center;
+}
+
+.container_aanbod {
+    width: 100%;
+    height: auto;
+}
+.container_categorie {
+    width: 100%;
+    background-color: #B9A777;
+    margin-top: 50px;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+
+.categorie_quote {
+    display: block;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 2pt;
+    margin-bottom: px;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-right: 0px;
+}
+
+
+.categorie_titel {
+    display: inline-block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.champagne_type {
+    border-right: 1px solid #B9A777;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.champagne_fles {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.champagne_naam {
+    font-family: 'MonteCarlo', cursive,sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #F12F22;
+    margin-top: 20px;
+}
+
+.champagne_quote {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    color: #74653C;
+    height: 50px;
+}
+
+.champagne_druiven {
+    padding-left: 15px;
+    list-style-type: none;
+    width: 50%;
+    float: left;
+    clear: none;
+    font-weight: normal;
+    font-size: 12px;
+}
+.champagne_druiven li {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.champagne_karakteristieken {
+    text-align: right;
+    list-style-type: none;
+    padding-right: 15px;
+    width: 50%;
+    clear: none;
+    float: left;
+    font-size: 12px;
+}
+.champagne_karakteristieken li {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.horizontal_rule {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid #F12F22;
+    padding-top: 0px;
+}
+.champagne_beschrijving {
+    font-size: 12px;
+    line-height: 1.7em;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: none;
+    height: 280px;
+}
+
+.no_border {
+    border: 0;
+}
+.arrow_up_img {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.section_hero {
+    position: relative;
+    padding-bottom: 20PX;
+    padding-top: 20px;
+}
+.hero_description {
+    width: 55%;
+    display: inline-block;
+    float: left;
+    position: relative;
+
+}
+.arrow_up_img_gold {
+    position: absolute;
+    right: 30px;
+    top: 23px;
+    width: 40px;
+    height: auto;
+}
+
+.hero_description h2 {
+    margin-top: 80px;
+    width: auto;
+}
+
+.hero_picture {
+    float: right;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: absolute;
+    right: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-width: 500px;
+    max-height: 450px;
+    top: 10%;
+}
+
+
+
+.hero_picture img {
+    -webkit-box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#boizel_bazen {
+    max-height: 380px;
+}
+
+.knowhow_link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    letter-spacing: 3px;
+    border: 2px solid #B9A777;
+    margin-top: 15px;
+}
+.knowhow_link:hover {
+    background-color: #B9A777;
+    color: #FFFFFF;
+}
+.knowhow_hero_description {
+    margin-bottom: 20px;
+}
+.container_knowhow_links {
+    display: block;
+    width: 100%;
+}
+#wijngaarden {
+}
+#rijping {
+}
+.atelier_bg {
+    width: 100%;
+    height: 80vh;
+    background-image: url(Afbeeldingen/maison_boizel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.container_text {
+    width: auto;
+    height: auto;
+    background-color: rgba(116,101,60,0.80);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(255,255,255,1.00);
+    border-radius: 10px;
+}
+#submit {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 0px;
+    background-color: rgba(185,167,119,1.00);
+    color: rgba(255,255,255,1.00);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#submit:hover {
+    background-color: rgba(116,101,60,1.00);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.bezoek_opsomming {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.bezoek_opsomming li {
+    position: relative;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.bezoek_icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bezoek_kenmerk {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.bezoek_icon_oog {
+    background-image: url(Afbeeldingen/icon_eye.png);
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bezoek_icon_champagne {
+    background-image: url(Afbeeldingen/icon_champagne
+%20(2).png);
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(Afbeeldingen/icon_champagne%20.png);
+
+}
+.bezoek_icon_wheelchair {
+    background-image: url(Afbeeldingen/icon_wheelchair.png);
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bezoek_icon_people {
+    background-image: url(Afbeeldingen/icon_people.png);
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bezoek_icon_clock {
+    background-image: url(Afbeeldingen/icon_clock.png);
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bezoek_cta {
+    text-transform: uppercase;
+    color: rgba(185,167,119,1.00);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 22px;
+    border: 2px solid rgba(185,167,119,1.00);
+    border-radius: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.bezoek_cta:hover {
+    color: rgba(255,255,255,1.00);
+    background-color: rgba(185,167,119,1.00);
+}
+
+.footer_up_circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(185,167,119,1.00);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer_up_arrow {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translate(-50%,-50%);
+}
+footer p {
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}

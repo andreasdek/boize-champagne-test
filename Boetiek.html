@@ -1,0 +1,238 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/sjb_boizel.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">	
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Boizel - Boetiek</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="opmaak.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<p>
+  <header> <a href="index.html" id="link_headerlogo"><img src="Afbeeldingen/Logo-Boizel-kleurjpg.png" alt="Logo Boizel" width="200" height="200" id="header_logo"/></a>
+    <nav> <a href="index.html">Ons Huis</a> <a href="knowhow.html">Knowhow</a> <a href="aanbod.html">Aanbod</a> <a href="atelier.html" id="nav_atelier">Atelier 1834</a> <a href="boetiek.html" id="nav_boetiek">Boetiek</a> <a href="bezoek.html">Bezoek</a> <a href="nieuwsbrief.html">Nieuwsbrief</a> <a href="contact.html">Contact</a> </nav>
+  </header>
+</p>
+<main class="container_main"><!-- InstanceBeginEditable name="content" -->
+	
+<form action="Verwerk.php" method="post" name="form1" id="form1">
+  <h1>Uw bestelling</h1>
+  <h2>Gegevens</h2>
+  <table width="600" border="0" cellpadding="5">
+    <tbody>
+      <tr>
+        <td width="150" id="naam"><label for="naam2">Naam:</label></td>
+        <td><input name="Naam" type="text" required="required" id="naam2" placeholder="Geef hier je familienaam in" size="50"></td>
+      </tr>
+      <tr>
+        <td width="150"><label for="Voornaam">Voornaam:</label></td>
+        <td><input name="Voornaam" type="text" required="required" id="Voornaam" placeholder="Geef hier je voornaam in" size="50"></td>
+      </tr>
+      <tr>
+        <td><label for="Adres">Straat + huisnummer: </label></td>
+        <td><input name="Adres" type="text" required="required" id="Adres" placeholder="Geef hier je adres in" size="50"></td>
+      </tr>
+      <tr>
+        <td><label for="Postcode">Postcode: </label></td>
+        <td><input name="Postcode" type="text" required="required" id="Postcode" placeholder="Vul hier je postcode in"></td>
+      </tr>
+      <tr>
+        <td>Plaats: </td>
+        <td><input name="Plaats" type="text" required="required" id="Plaats" placeholder="Vul hier de plaats in "></td>
+      </tr>
+      <tr>
+        <td>Land van herkomst:</td>
+        <td><select name="Land" required="required" id="Land">
+          <option value="BE">België</option>
+          <option value="FR">Frankrijk</option>
+          <option value="DE">Duitsland</option>
+          <option value="ENG">Engeland</option>
+          <option value="ESP">Spanje</option>
+          <option value="IT">Italië</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input name="Emailadres" type="email" required="required" id="email" placeholder="Geef hier je emailadres in" size="50"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Bestelling</h2>
+  <table width="372" border="0" cellpadding="5">
+    <tbody>
+      <tr>
+        <td colspan="2" align="right"><strong>Prijs / Fles</strong></td>
+        <td width="107"><strong>Hoeveelheid</strong></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="157" align="left"><strong>Brut Réserve</strong></td>
+        <td width="70" align="right">€ 32.00</td>
+        <td align="right"> <select name="Hoeveelheid_Brut" id="Hoeveelheid_Brut">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Rosé</strong></td>
+        <td align="right">€ 39.00</td>
+        <td align="right"><select name="Hoeveelheid_Rosé" id="Hoeveelheid_Rosé">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Blanc de Blancs</strong></td>
+        <td align="right">€ 41.00</td>
+        <td align="right"><select name="Hoeveelheid_Blanc" id="Hoeveelheid_Blanc">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Grand Vintage 2007</strong></td>
+        <td align="right">€ 53.00</td>
+        <td align="right"><select name="Hoeveelheid_GV2007" id="Hoeveelheid_GV2007">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Grand Vintage 2012</strong></td>
+        <td align="right">€ 53.00</td>
+        <td align="right"><select name="Hoeveelheid_GV2012" id="Hoeveelheid_GV2012">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Blanc de Noirs</strong></td>
+        <td align="right">€ 39.00</td>
+        <td align="right"><select name="Hoeveelheid_Noir" id="Hoeveelheid_Noir">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Ultime</strong></td>
+        <td align="right">€ 41.50</td>
+        <td align="right"><select name="Hoeveelheid_Ultime" id="Hoeveelheid_Ultime">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Cuvée Sous Bois</strong></td>
+        <td align="right">€ 115.00</td>
+        <td align="right"><select name="Hoeveelheid_CuvéeSB" id="Hoeveelheid_CuvéeSB">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Joyau de France 2004</strong></td>
+        <td align="right">€ 95.00</td>
+        <td align="right"><select name="Hoeveelheid_Joyau2004" id="Hoeveelheid_Joyau2004">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Joyau de France <br>
+        Rosé 2007</strong></td>
+        <td align="right">€ 102.00</td>
+        <td align="right"><select name="Hoeveelheid_JoyauRosé" id="Hoeveelheid_JoyauRosé">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="3">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left"><strong>Joyau de France Chardonnay 2007</strong></td>
+        <td align="right">€ 102.00</td>
+        <td align="right"><select name="Hoeveelheid_JoyauChar" id="Hoeveelheid_JoyauChar">
+          <option value="Geen">Geen</option>
+          <option value="1 fles">1 fles</option>
+          <option value="6 flessen">6 flessen</option>
+          <option value="12 flessen">12 flessen</option>
+        </select></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    <input name="frmbestelling" type="submit" id="frmbestelling" formaction="verwerking_boetiek.php" formmethod="POST" value="Bestelling bevestigen">
+  </p>
+</form>
+	
+	
+	<!-- InstanceEndEditable --></main>
+<footer>
+  <div class="footer_up_circle"></div>
+<a href="#header_logo"><img src="Afbeeldingen/up_arrow_white_wo_circle.png" alt="" width="512" height="512" class="footer_up_arrow"/></a>
+<p><a href="https://www.facebook.com/champagneboizel"><img src="Afbeeldingen/Facebook-logo.gif" width="25" height="25" alt=""/></a></p>
+  <p><a href="https://www.instagram.com/champagneboizel/"><img src="Afbeeldingen/Instagram-logo.gif" width="25" height="25" alt=""/></a></p>
+  <p> &vert; &copy; Aziliz Divoux <a href="mailto:aziliz.divoux@student.vives.be">&vert; aziliz.divoux@student.vives.be</a></p>
+<p> &vert; Laatste update:
+    <!-- #BeginDate format:Ge1 -->09.08.2021<!-- #EndDate -->
+  </p>
+</footer> 
+</body>
+<!-- InstanceEnd --></html>

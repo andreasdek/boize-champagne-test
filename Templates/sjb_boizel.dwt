@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">	
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../opmaak.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<p>
+  <header> <a href="../index.html" id="link_headerlogo"><img src="../Afbeeldingen/Logo-Boizel-kleurjpg.png" alt="Logo Boizel" width="200" height="200" id="header_logo"/></a>
+    <nav> <a href="../index.html">Ons Huis</a> <a href="../knowhow.html">Knowhow</a> <a href="../aanbod.html">Aanbod</a> <a href="../atelier.html" id="nav_atelier">Atelier 1834</a> <a href="../boetiek.html" id="nav_boetiek">Boetiek</a> <a href="../bezoek.html">Bezoek</a> <a href="../nieuwsbrief.html">Nieuwsbrief</a> <a href="../contact.html">Contact</a> </nav>
+  </header>
+</p>
+<main class="container_main"><!-- TemplateBeginEditable name="content" -->content<!-- TemplateEndEditable --></main>
+<footer>
+  <div class="footer_up_circle"></div>
+<a href="#header_logo"><img src="../Afbeeldingen/up_arrow_white_wo_circle.png" alt="" width="512" height="512" class="footer_up_arrow"/></a>
+<p><a href="https://www.facebook.com/champagneboizel"><img src="../Afbeeldingen/Facebook-logo.gif" width="25" height="25" alt=""/></a></p>
+  <p><a href="https://www.instagram.com/champagneboizel/"><img src="../Afbeeldingen/Instagram-logo.gif" width="25" height="25" alt=""/></a></p>
+  <p> &vert; &copy; Aziliz Divoux <a href="mailto:aziliz.divoux@student.vives.be">&vert; aziliz.divoux@student.vives.be</a></p>
+<p> &vert; Laatste update:
+    <!-- #BeginDate format:Ge1 -->09.08.2021<!-- #EndDate -->
+  </p>
+</footer> 
+</body>
+</html>

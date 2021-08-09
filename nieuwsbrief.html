@@ -1,0 +1,94 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/sjb_boizel.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">	
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Boizel - Nieuwsbrief</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="opmaak.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<p>
+  <header> <a href="index.html" id="link_headerlogo"><img src="Afbeeldingen/Logo-Boizel-kleurjpg.png" alt="Logo Boizel" width="200" height="200" id="header_logo"/></a>
+    <nav> <a href="index.html">Ons Huis</a> <a href="knowhow.html">Knowhow</a> <a href="aanbod.html">Aanbod</a> <a href="atelier.html" id="nav_atelier">Atelier 1834</a> <a href="boetiek.html" id="nav_boetiek">Boetiek</a> <a href="bezoek.html">Bezoek</a> <a href="nieuwsbrief.html">Nieuwsbrief</a> <a href="contact.html">Contact</a> </nav>
+  </header>
+</p>
+<main class="container_main"><!-- InstanceBeginEditable name="content" -->
+	<form action="verwerking2.php" method="post" name="form1" id="form1">
+  <h1>Schrijf je in voor onze nieuwsbrief</h1>
+  <table width="600" border="0" cellpadding="5">
+    <tbody>
+      <tr>
+        <td width="150"><label for="naam2">Naam:</label></td>
+        <td><input name="naam" type="text" required="required" id="naam2" placeholder="Geef hier je familienaam in" size="50"></td>
+      </tr>
+      <tr>
+        <td width="150"><label for="voornaam">Voornaam:</label></td>
+        <td><input name="voornaam" type="text" required="required" id="voornaam" placeholder="Geef hier je voornaam in" size="50"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input name="email" type="email" required="required" id="email" placeholder="Geef hier je emailadres in" size="50"></td>
+      </tr>
+      <tr>
+        <td><label for="gsm">GSM-nummer:</label></td>
+        <td><input name="gsm" type="tel" required="required" id="gsm" placeholder="(xxxx) xxxxxx"></td>
+      </tr>
+      <tr>
+        <td><label for="geboortedatum">Geboortedatum:</label></td>
+        <td><p>
+          <input name="geboortedatum" type="date" required="required" id="geboortedatum">
+          <br>
+        </p></td>
+      </tr>
+      <tr>
+        <td>Land van herkomst:</td>
+        <td><select name="herkomst" required="required" id="herkomst">
+          <option value="BE">België</option>
+          <option value="FR">Frankrijk</option>
+          <option value="DE">Duitsland</option>
+          <option value="ENG">Engeland</option>
+          <option value="ESP">Spanje</option>
+          <option value="IT">Italië</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="opmerking">Opmerking:</label></td>
+        <td><textarea name="opmerking" cols="50" rows="4" id="opmerking" placeholder="Vul hier je opmerkingen in"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input name="wettelijk" type="checkbox" required="required" id="wettelijk">
+          <label for="wettelijk">Ik verklaar  de wettelijke leeftijd te hebben die vereist is voor het nuttigen van alcoholische dranken in het land waarin u zich bevindt. (Minimumleeftijd 18 jaar)</label></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input name="nieuwsbrief" type="checkbox" id="nieuwsbrief">
+          <label for="nieuwsbrief">Hou me per e-mail op de hoogte via de nieuwsbrief. </label></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    <input name="bevestiging" type="submit" id="bevestiging" formaction="verwerking2.php" formmethod="POST" value="Inschrijving bevestigen">
+    <input name="submit2" type="submit" id="submit2" formaction="verwerking2.php" formmethod="POST" value="Inschrijving annuleren">
+  </p>
+</form>
+	
+	<!-- InstanceEndEditable --></main>
+<footer>
+  <div class="footer_up_circle"></div>
+<a href="#header_logo"><img src="Afbeeldingen/up_arrow_white_wo_circle.png" alt="" width="512" height="512" class="footer_up_arrow"/></a>
+<p><a href="https://www.facebook.com/champagneboizel"><img src="Afbeeldingen/Facebook-logo.gif" width="25" height="25" alt=""/></a></p>
+  <p><a href="https://www.instagram.com/champagneboizel/"><img src="Afbeeldingen/Instagram-logo.gif" width="25" height="25" alt=""/></a></p>
+  <p> &vert; &copy; Aziliz Divoux <a href="mailto:aziliz.divoux@student.vives.be">&vert; aziliz.divoux@student.vives.be</a></p>
+<p> &vert; Laatste update:
+    <!-- #BeginDate format:Ge1 -->09.08.2021<!-- #EndDate -->
+  </p>
+</footer> 
+</body>
+<!-- InstanceEnd --></html>
